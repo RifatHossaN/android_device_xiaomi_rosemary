@@ -6,3 +6,6 @@ system_public_prop(system_camera_prop)
 
 # Fingerprint
 system_public_prop(system_fingerprint_prop)
+
+# SettingsLib
+system_public_prop(settingslib_prop)
