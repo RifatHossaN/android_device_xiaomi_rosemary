@@ -190,6 +190,7 @@ ro.vendor.mtk_data_config=1
 ro.vendor.mtk_embms_support=1
 persist.vendor.mtk_sim_switch_policy=2
 persist.vendor.md_c2k_cap_dep_check=0
+persist.sys.radio.force_lte_ca=false
 ro.vendor.md_log_memdump_wait=15
 ro.vendor.mtk_modem_monitor_support=1
 import /vendor/build_${ro.boot.radio.multisim.config}_vendor.prop
