@@ -11,8 +11,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/rosemary/device.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common CherishOS stuff.
+TARGET_SUPPORTS_QUICK_TAP := true
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Vanilla build
+CHERISH_VANILLA := true
+
+# Call recording
+TARGET_SUPPORTS_CALL_RECORDING := true
 
 # Blur
 TARGET_ENABLE_BLUR := true
