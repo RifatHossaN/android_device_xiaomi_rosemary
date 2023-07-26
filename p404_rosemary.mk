@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/rosemary/device.mk)
 $(call inherit-product, vendor/404/configs/common.mk)
 
 # Include GAPPS
-WITH_GAPPS := true
+WITH_GAPPS := true 
 
 # Blur
 TARGET_ENABLE_BLUR := true
@@ -35,4 +35,4 @@ BUILD_FINGERPRINT := Redmi/rosemary_global/rosemary:11/RP1A.200720.011/V12.5.16.
 
 # Maintainer Flags
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.p404.maintainer=Nukx
+    ro.p404.maintainer=Nukx 
