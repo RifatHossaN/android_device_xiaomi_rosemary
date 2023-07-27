@@ -501,6 +501,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service-lazy.rosemary
 
+# platform
+TARGET_BOARD_PLATFORM := mt6785
+
 PRODUCT_PACKAGES += \
     libkeystore-wifi-hidl \
     libkeystore-engine-wifi-hidl
