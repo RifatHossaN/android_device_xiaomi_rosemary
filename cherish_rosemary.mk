@@ -19,7 +19,7 @@ $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Vanilla build
-CHERISH_VANILLA := true
+#CHERISH_VANILLA := true
 
 # Call recording
 TARGET_SUPPORTS_CALL_RECORDING := true
